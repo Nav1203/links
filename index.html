@@ -5,7 +5,16 @@
             Links
         </title>
         <script src="function.js">
-
+        <style type="text/css">
+            #warning-message { display: none; }
+            @media only screen and (orientation:portrait){
+                #wrapper { display:none; }
+                #warning-message { display:block; }
+            }
+            @media only screen and (orientation:landscape){
+                #warning-message { display:none; }
+            }
+        </style>
         </script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSS only -->
@@ -17,6 +26,7 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="wrapper">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 padd1">
@@ -70,5 +80,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="typewriter color widthtitle" id="warning-message">
+        <h2>this website is only viewable in landscape mode</h2>
+    </div>
     </body>
 </html>
