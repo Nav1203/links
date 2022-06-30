@@ -9,7 +9,9 @@ body{
 .right{
     text-align: right;
 }
-
+.font{
+    font-size: medium;
+}
 #img{
     transition: transform 5s,opacity 3s;
     opacity: 0;
