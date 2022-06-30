@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+#warning-message { display: none; }
 body{
     background-color: black;
 }
@@ -8,7 +9,13 @@ body{
 .right{
     text-align: right;
 }
-
+@media only screen and (orientation:portrait){
+                #wrapper { display:none; }
+                #warning-message { display:block; }
+}
+@media only screen and (orientation:landscape){
+                #warning-message { display:none; }
+}
 #img{
     transition: transform 5s,opacity 3s;
     opacity: 0;
