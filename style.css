@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+body{
+    background-color: black;
+}
+.imsize{
+    max-width: 70%;
+}
+.right{
+    text-align: right;
+}
+
+#img{
+    transition: transform 5s,opacity 3s;
+    opacity: 0;
+    transform:translate(0,100);
+}
+.padd1{
+    padding-left: 5%;
+}
+.lfs{
+    font-size: 70%;
+    color:aliceblue;
+    text-decoration: none;
+}
+lfs:hover{
+    color:gray;
+}
+.center{
+    text-align: center;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.fade-in-image { animation: fadeIn 5s; }
+.bodtext{
+    font-size: 150%;
+    transition: 2s;
+}
+.color{
+    color:aliceblue;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.widthtitle{
+    max-width: max-content;
+}
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid rgb(255, 255, 255); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: typing 0.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(255, 255, 255); }
+  }
