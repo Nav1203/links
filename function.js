@@ -14,8 +14,8 @@ window.onload=function(){
 function titlechange (){
     document.getElementById("qoute").hidden=false;
     document.getElementById("qoute2").hidden=false;
-    const qoutearr=["Welcome!","Hola!","Namaste!"]
-    var qn=Math.floor(Math.random() * 3)
+    const qoutearr=["Welcome!","Hola!","Namaste!","Guten tag!","Olá!","Ciao!"]
+    var qn=Math.floor(Math.random() * 6)
     document.getElementById("qoute").innerHTML=qoutearr[qn];
     document.getElementById("qoute2").innerHTML=qoutearr[qn];
 }
