@@ -24,4 +24,5 @@ async function bodyappear(){
     await sleep(500);
     document.getElementById('links').hidden=false;
     document.getElementById('links2').hidden=false;
+    document.getElementById('form1').hidden=false;
 }
