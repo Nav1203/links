@@ -8,14 +8,49 @@ body{
 .imsize{
     max-width: 70%;
 }
+label{
+    color:white;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+input,textarea{
+    background-color: white;
+    color: color;
+    border-color: white;
+    width: 40%;
+    border-radius: 10px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.but2{
+    color: white;
+    background-color: black;
+    font-family: 'Darker Grotesque', sans-serif;
+    border-radius: 10px;
+    width: 10%;
+    border-color: white;
+    transition: 1s;
+}
+.but2:hover{
+    border-radius: 10px;
+    transition: 1s;
+    border-color: black;
+    background-color: white;
+    color: black;
+}
 .right{
     text-align: right;
 }
 .font{
     font-size: small;
 }
+.qoute{
+    font-size: 200%;
+    color:white;
+    font-family: 'Darker Grotesque', sans-serif;
+}
 #qoute2{
     font-size: 250%;
+    color:white;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 #img{
     transition: transform 5s,opacity 3s;
