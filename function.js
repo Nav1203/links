@@ -9,7 +9,7 @@ window.onload=function(){
     document.getElementById('img2').style.transform='translate(0,-100);';
     console.log(Math.floor(Math.random() * 3))
     titlechange();
-    bodyappear();   
+    bodyappear();
 }
 function titlechange (){
     document.getElementById("qoute").hidden=false;
