@@ -25,4 +25,5 @@ async function bodyappear(){
     document.getElementById('links').hidden=false;
     document.getElementById('links2').hidden=false;
     document.getElementById('form1').hidden=false;
+    document.getElementById('form2').hidden=false;
 }
